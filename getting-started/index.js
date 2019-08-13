@@ -42,9 +42,23 @@ console.log (ageMark, ageJohn);
 
 // 6
 
-console.log (ageJohn > ageMark)
+console.log ((ageJohn > ageMark) ? "John is older than Mark: true" : "Mark is older than John: false");
 
 // 7 
+
+let a;
+a = 2;
+let b;
+b = 4;
+let c;
+c = 6;
+
+console.log (a == b);
+console.log (a == c);
+console.log (b == c);
+console.log (a === b);
+console.log (a === b);
+console.log (b === c);
 
 // 8
 
