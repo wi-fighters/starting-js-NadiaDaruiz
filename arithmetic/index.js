@@ -3,25 +3,35 @@
 let result = 17 / 30;
 console.log(`${result} %`);
 
+// another way -
+//const grade = 17;
+//const total = 30;
+//const percent = (grade * 100) / total;
+//console.log (`This is the result: ${percent}%`);
+
 
 // # 2. Avarages
 
-const workedHours = 8 + 6 + 5 + 9 + 8 + 2 + 1 + 7 + 4 + 8.5
+const workedHours = 8 + 6 + 5 + 9 + 8 + 2 + 1 + 7 + 4 + 8.5;
 console.log("In the last two weeks she worked " + workedHours);
 const workedAvarage = workedHours / 10; 
 console.log("She worked " + workedAvarage + " per day.");
 
-// ## 3. Score
+// another way -
 
-const scoredTest = 75 + 70 + 85 + 90 + 100;
-console.log(scoredTest);
-const avarage = scoredTest / 5;
-console.log(avarage);
-const finalAvarage = 85;
-const sixthTest = avarage - finalAvarage;
+//const workingHours = 8 + 6 + 5 + 9 + 8 + 2 + 1 + 7 + 4 + 8.5;
+//const numberOfDays = 10;
+//const avarageHours = workingHours / numberOfDays;
+//console.log(`Noemy avarage working hour: ${avarageHours}`);
+
+
+// # 3. Score 
+
+const totalTestsAvg = 85;
+const totalTestCount = 6;
+const fiveTest = 75 + 70 + 85 + 90 + 100;
+const sixthTest = (totalTestsAvg * totalTestCount) - fiveTest;
 console.log(sixthTest);
-result = sixthTest
-console.log("Score in the sixth test " + result);
 
 // ## 4. Minimum Score
 
@@ -35,21 +45,59 @@ console.log(`James needs a minimum of ${minumumResultNeeded} to get an 80% avera
 
 // ## 5. Consumer formula
 
-const checkOne = 22.35;
-const checkTwo = 26.67;
-const checkThree = 35.92;
-const tipPercentageOne = 100 / 10;
-const tipPercentageTwo = 100 / 15;
-const tipPercentageThree = 100 / 20;
-const checkOneWithTip = checkOne + tipPercentageOne;
-const checkTwoWithTip = checkTwo + tipPercentageTwo;
-const checkThreeWithTip = checkThree + tipPercentageThree;
+const billOne = 22.35;
+const billTwo = 26.67;
+const billThree = 35.92;
 
-console.log(checkOneWithTip);
-console.log(checkTwoWithTip);
-console.log(checkThreeWithTip);
+const tipPercentOne = (22.35 * 0.1);
+const tipPercentTwo = (26.67 * 0.15);
+const tipPercentThree = (35.92 * 0.20);
+
+const billOneWithTip = billOne + tipPercentOne;
+const billTwoWithTip = billTwo + tipPercentTwo;
+const billThreeWithTip = billThree + tipPercentThree;
+
+console.log(billOneWithTip);
+console.log(billTwoWithTip);
+console.log(billThreeWithTip);
 
 // ## 6. Geometry Formulas
+
+const sqSideLength = 4.75;
+const sqSideCount = 4;
+const perimeter = sqSideLength * sqSideCount;
+console.log(perimeter);
+
+const triSideLength1 = 5;
+const triSideLength2 = 6;
+const triSideLength3 = 7;
+const triPerimeter = triSideLength1 + triSideLength2 + triSideLength3;
+console.log(triPerimeter);
+
+const sqSide = 5;
+const sqArea = sqSide * sqSide;
+console.log(sqArea);
+
+const triS = (5 + 6 + 7) / 2;
+const heron = triS *(triS - 5)*(triS - 6)*(triS - 7);
+const triArea = Math.sqrt(heron);
+console.log (triArea);
+
+const cubeVol= 9 * 9 * 9;
+console.log(cubeVol);
+
+// ## 7. Basic word problems
+
+const totalSales = 6450;
+const ticketCost = 15;
+const guestCount = totalSales / ticketCost;
+console.log(guestCount);
+
+const weeklyIncome = 500;
+const weeksPerYear = 52;
+const yearlyIncome = weeklyIncome * weeksPerYear;
+console.log(yearlyIncome);
+
 
 
 
