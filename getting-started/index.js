@@ -36,13 +36,17 @@ console.log (typeof true);
 
 // # 5. 
 
-var ageMark = 20+13;
-var ageJohn = "35";
+let ageMark = 20+13;
+let ageJohn = "35";
 console.log (ageMark, ageJohn);
 
-// # 6.
+// # 6. opc 1
+let ageTest = ageJohn
+console.log ()
 
+// # 6. opc 2
 console.log ((ageJohn > ageMark) ? "John is older than Mark: true" : "Mark is older than John: false");
+
 
 // # 7. 
 
@@ -69,13 +73,13 @@ console.log (programmingLanguage + " is fun: " + isFun);
 // # 9. 
 
 var test; 
-console.log (typeof "test");
+console.log (typeof test);
 
 // # 10.
 
 let calculation;
 calculation = 1+1;
-console.log (calculation);
+console.log ("calculation result:", calculation);
 
 
 
