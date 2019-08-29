@@ -3,6 +3,7 @@
     // ## 1. Lowest number
 
     console.log(Math.min(4, 6, 93455666, 79, 30006, 12045));
+
     console.log(Math.min(1.5, 2.9, 99.9, -9, 444, -5.9));
 
     // ## 2. Highest number
@@ -30,6 +31,12 @@
     // ## 4. Dice roll!
 
     console.log(Math.floor(Math.random()* 6) +1 );
+
+    const x = 1;
+    const y = 6;
+    console.log(Math.floor(Math.random()*y) +x);
+
+
 
 
 
