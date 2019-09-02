@@ -1,18 +1,13 @@
-let bandArray = [];
+function capitalizeColor(clothesColor) {
+  const toLowerCase = clothesColor[0] + clothesColor.substring(1).toLowerCase();
+  return toLowerCase;
+}
+console.log(capitalizeColor("YeLlow"));
 
-function bandNameFunction(clothesColor, lastFood) {
-  const firstInitial = clothesColor[0].toUpperCase();
-  const secondInitial = lastFood[0].toUpperCase();
-
-  const bandName = `The ${firstInitial}${clothesColor.substring(
-    1
-  )} ${secondInitial}${lastFood.substring(1)}!`;
-
-  bandArray.push(bandName);
-
-  return bandArray;
+function capitalizeFood(lastFoodEaten) {
+  let toLowerCase = lastFoodEaten[0].toUpperCase();
+  toLowerCase += lastFoodEaten.substring(1).toLowerCase();
+  return toLowerCase;
 }
 
-console.log(bandNameFunction("white", "chili"));
-console.log(bandNameFunction("pink", "bread"));
-console.log(bandNameFunction("blue", "eggs"));
+console.log(capitalizeFood("PIE"));
