@@ -1,7 +1,9 @@
 Exercises: Functions
+
 These exercises are based on the variables exercises, so you may start from those (your solutions or ours) or start from scratch.
 
-The Fortune Teller
+1. The Fortune Teller
+
 Why pay a fortune teller when you can just program your fortune yourself?
 
 Write a function named tellFortune that:
@@ -9,7 +11,8 @@ takes 4 arguments: number of children, partner's name, geographic location, job 
 outputs your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
 Call that function 3 times with 3 different values for the arguments.
 
-The Puppy Age Calculator
+2. The Puppy Age Calculator
+
 You know how old your dog is in human years, but what about dog years? Calculate it!
 
 Write a function named calculateDogAge that:
@@ -20,7 +23,8 @@ Call the function three times with different sets of values.
 
 Bonus: Add an additional argument to the function that takes the conversion rate of human to dog years.
 
-The Lifetime Supply Calculator
+3. The Lifetime Supply Calculator
+
 Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
 
 Write a function named calculateSupply that:
@@ -31,7 +35,7 @@ Call that function three times, passing in different values each time.
 
 Bonus: Accept floating point values for amount per day, and round the result to a round number.
 
-The Geometrizer
+4. The Geometrizer
 
 Create 2 functions that calculate properties of a circle, using the definitions here.
 
@@ -43,7 +47,8 @@ Create a function called calcArea:
 Pass the radius to the function.
 Calculate the area based on the radius, and output "The area is NN".
 
-The Temperature Converter
+5. The Temperature Converter
+
 It's hot out! Let's make a converter based on the steps here.
 
 Create a function called celsiusToFahrenheit:
